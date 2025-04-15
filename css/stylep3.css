@@ -1,0 +1,66 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+.container
+{
+    margin:0 auto;
+    width:1300px;
+}
+/* header */
+header{background-color:#042b02}
+header .container .logo p{color:#DBD4D4;font-size:25px;position:relative;top:75px;left:340px }
+header .container .logo a{text-decoration:none}
+header .container .logo h1{color:#fff;font-size:90px;text-transform:capitalize}
+header .container .logo h1 span{color:#cc7c2c}
+header .container .navbar ul{list-style-type:none;overflow:hidden}
+header .container .navbar ul li{float:left;padding:15px;font-size:20px;background-color:#00C40D;border-radius:8px;margin:0 15px 30px 5px}
+header .container .navbar ul li a{text-decoration:none;color:#fff}
+header .container .navbar ul li:hover{background-color:#cc7c2c}
+header .container .navbar ul li.active{background-color:#cc7c2c}
+/* header */
+/* contact */
+.contant{margin:0;overflow:hidden}
+.contant .container h2{text-transform:capitalize;color:#00C40D;font-size:35px;letter-spacing:1px;padding-top:20px}
+.contant .container .text .paph{width:500px;float:left;padding:0 10px 10px 10px}
+.contant .container .text .paph h3{padding:25px 0;letter-spacing:1px;font-weight:bold}
+.contant .container .text .paph .images img{padding:3px;width:400px;height:150px; border:1px solid #dedede}
+.contant .container .text .paph p{line-height:25px;padding:10px 0;width:450px}
+.contant .container .text .paph p a{color:#008000}
+.contant .container .text .paph p span a{color:#FF0000}
+/* contact */
+/* sidbar */
+.contant .container .sidbar{overflow:hidden}
+.contant .container .sidbar .side ul{list-style-type:none;padding-top:30px}
+.contant .container .sidbar .side ul li{padding:10px;color:#333}
+.contant .container .sidbar .side ul li a{color:#666;text-decoration:none}
+.contant .container .sidbar .side ul li a:hover{color:green;font-size:110%}
+.contant .container .sidbar .side ul li p{padding:10px;line-height:30px;color:#AAA}
+/* sidbar */
+/*footer */
+.footer{overflow:hidden;background-color:#042b02}
+.footer .container{overflow:hidden}
+.footer .container .last{width:430px;float:left}
+.footer .container .last h2{color:#fff;padding:30px 0;font-weight:bold}
+.footer .container .last .single-image{float:left}
+.footer .container .last .single-image img{width:100px;height:90px;margin-right:25px;border:1px solid #fff}
+.footer .container .last p{color:#fff;padding:0 20px 30px 0;line-height:30px;font-weight:bold}
+.footer .container .last p a{color:#006D01}
+.footer .container .last ul{list-style-type:none;overflow:hidden;padding-right:20px}
+.footer .container .last ul li{width:123px;float:left}
+.footer .container .last ul li img{width:100px;height:90px;margin-bottom:20px;border:1px solid #fff}
+/*footer */
+/* end */
+.end{overflow:hidden;background-color:#000}
+.end .container .down{width:50%;float:left}
+.end .container .down p{color:#fff;margin:50px 0;font-size:20px}
+.end .container .down p a{color:#006000}
+.end .container .down ul{overflow:hidden;float:right;margin:50px 0}
+.end .container .down ul li{float:left;padding:0 25px}
+.end .container .down ul li a{text-decoration:none;color:#fff;font-size:20px}
+.end .container .down ul li a{text-decoration:none;color:#fff}
+.end .container .down ul li a:hover{color:green}
+.end .container .down ul li a.active{color:#006000}
+/* end */
